@@ -2,7 +2,8 @@
   "$schema": "https://json.schemastore.org/swcrc",
   "jsc": {
     "experimental": {
-      "keepImportAssertions": true
+      "keepImportAttributes": true,
+      "emitAssertForImportAttributes": true
     }
   }
 }
