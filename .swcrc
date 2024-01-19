@@ -1,9 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/swcrc",
   "jsc": {
+    "target": "es2022",
+    "parser": {
+      "syntax": "typescript",
+      "importAttributes": true
+    },
     "experimental": {
-      "keepImportAttributes": true,
-      "emitAssertForImportAttributes": true
+        "keepImportAttributes": true,
+        "emitAssertForImportAttributes": true
     }
-  }
+},
 }
